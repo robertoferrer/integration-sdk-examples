@@ -18,5 +18,11 @@
 
     <integration-template key="GoogleDriveCreateFolderIntegrationTemplate" name="GoogleDriveCreateFolderIntegrationTemplate"
                           class="com.mycorp.googledrive.templates.GoogleDriveCreateFolderIntegrationTemplate" />
+
+    <integration-template key="GoogleDriveCreateFolderIntegrationTemplate" name="GoogleDriveListFilesIntegrationTemplate"
+                          class="com.mycorp.googledrive.templates.GoogleDriveListFilesIntegrationTemplate" />
+
+    <integration-template key="GoogleDriveCreateFolderIntegrationTemplate" name="GoogleDriveUploadFileIntegrationTemplate"
+                          class="com.mycorp.googledrive.templates.GoogleDriveUploadFileIntegrationTemplate" />
   </connected-system-template>
 </appian-plugin>
